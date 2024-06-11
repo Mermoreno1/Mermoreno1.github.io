@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+margin:  0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+	background: url("img/fondo piola.jpg")0 no-repeat fixed;
+	background-size: cover;
+}
+
+#wrap-main {
+    width: 650px;
+    min-height: 100vh;
+    background-color:#CBC9CD;
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color:#850102;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color:#C10101;
+    margin: 0 0 20px 0;
+	font-family: "Hind Siliguri", sans-serif; peso de fuente: 300; estilo de fuente: normal; } .hind-siliguri-regular { font-family: "Hind Siliguri", sans-serif; peso de fuente: 400; estilo de fuente: normal; } .hind-siliguri-medium { font-family: "Hind Siliguri", sans-serif; peso de fuente: 500; estilo de fuente: normal; } .hind-siliguri-semibold { font-family: "Hind Siliguri", sans-serif; peso de fuente: 600; estilo de fuente: normal; } .hind-siliguri-bold { font-family: "Hind Siliguri", sans-serif; peso de fuente: 700; estilo de fuente: normal;
+}
+
+h3 {
+	font-size: 22px;
+	text-align: left;
+	color:#D9100F;
+	margin: 0 0 20px 0;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+.Session {  
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+
+.Distrito {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Pool {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Ciudad {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.joaco {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Fer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Miredas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Ojitos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.La {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Esto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.no {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #850102;
+  }
+
+figcaption {
+	font-style: italic;
+	font-weight: lighter;
+	color: yellowgreen;
+	margin: 0 auto 20px;
+}
+
+nav {
+	text-align: center
+}
+
+nav a {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 20px;
+	background-color:#D5D4D9;
+	text-decoration: none;
+	color: #850102;
+	border-radius: 5px;
+}
+
+#footer {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    columns: 1;
+}

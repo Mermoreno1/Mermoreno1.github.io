@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin:  0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+	background: url("img/fondo piola.jpg") 0 no-repeat fixed;
+	background-size: cover;
+}
+
+#wrap-main {
+    width: 650px;
+    min-height: 100vh;
+    background-color:#CBC9CD;
+    padding: 20px;
+    margin: auto;
+}
+h1   {
+	font-size: 70px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+
+}
+
+h2 {
+	 font-size: 30px;
+    text-align: center;
+    color:#0B0000;
+    margin: 0 0 20px 0;
+
+}
+
+p {
+	font-size: 15px;
+	text-align: left;
+	color: black;
+	margin: auto;
+	  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#footer {
+	  background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    columns: 1;
+}
+
+.foto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
